@@ -43,7 +43,7 @@ img, svg {
   max-width: 100%;
   height: auto;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
 }
 
 input, textarea, button, select {
@@ -86,7 +86,7 @@ html {
 }
 
 .app {
-  font-family:sans-serif;
+  font-family: sans-serif;
   font-style: normal;
   font-weight: 400;
   background-color: #eef1f5;
@@ -98,16 +98,20 @@ html {
   flex-direction: column;
   min-height: 100vh;
 }
+
 body ::-webkit-scrollbar {
   height: 0px;
   width: 0px;
 }
-main{
+
+main {
   flex-grow: 1;
 }
-footer{
+
+footer {
   flex-shrink: 0;
 }
+
 .container {
   max-width: 1920px;
   width: 100%;
